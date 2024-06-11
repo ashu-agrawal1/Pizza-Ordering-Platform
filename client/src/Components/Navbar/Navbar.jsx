@@ -17,7 +17,7 @@ export default function Navbar() {
 		<nav className='navbar navbar-expand-lg navbar-dark custom-navbar  '>
 			<div className='container-fluid'>
 				<a className='navbar-brand' href='/'>
-					PIZZA PARADISE
+					PIZZA LOVER
 				</a>
 				<button
 					className='navbar-toggler'

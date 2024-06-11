@@ -27,7 +27,7 @@ const Main = () => {
           <HStack width="100%" backgroundColor="black">
             <VStack width="50%" justifyContent="center">
               <Text paddingBottom="20px" fontSize="3xl" color="white">
-                PIZZA PARADISE brings
+                PIZZA LOVER brings
               </Text>
               <Text
                 textAlign="center"
@@ -135,7 +135,7 @@ const Main = () => {
                     alignItems="flex-end"
                     borderRadius="0px"
                     width="50px"
-                    src="https://cdn-icons.flaticon.com/png/128/2153/premium/2153786.png?token=exp=1648453407~hmac=35a2a3ee71a54a962ee78b7b70a87080"
+                    src="icons/vegetable.png"
                   />
                   <Text textAlign="center" fontWeight="semibold" fontSize="2xl">
                     Fresh Vegetables
@@ -158,7 +158,7 @@ const Main = () => {
                     alignItems="flex-end"
                     borderRadius="0px"
                     width="50px"
-                    src="https://cdn-icons.flaticon.com/png/128/3514/premium/3514378.png?token=exp=1648453447~hmac=28e97ed843f7e7bcb58b3043eb9b3de3"
+                    src="icons/steak.png"
                   />
                   <Text textAlign="center" fontWeight="semibold" fontSize="2xl">
                     Fresh meat
@@ -233,9 +233,9 @@ const Main = () => {
               </Box>
             </SimpleGrid>
           </VStack>
-          <VStack backgroundColor="#dee2e6" width="100%">
+          {/* <VStack backgroundColor="#dee2e6" width="100%">
             <Text>@Copyright2024</Text>
-          </VStack>
+          </VStack> */}
         </VStack>
       </Flex>
     </>
